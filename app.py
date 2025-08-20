@@ -136,7 +136,7 @@ def create_stacked_area_chart(df_income_time):
     
     # Update layout
     fig_stacked_area.update_layout(
-        title='Evolución de Casos de Polio per Cápita por Grupo de Ingresos (1980-2016)',
+        title='Evolución de Casos de Polio por Grupo de Ingresos (1980-2016)',
         xaxis_title='Año',
         yaxis_title='Casos por Millón de Habitantes',
         width=1600,
