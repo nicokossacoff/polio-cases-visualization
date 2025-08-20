@@ -514,8 +514,8 @@ app.layout = html.Div([
         
         # Tab system for different charts
         dcc.Tabs(id="tabs", value='tab-1', children=[
-            dcc.Tab(label='📈 Evolución de Casos por Grupo de Ingresos', value='tab-1', style={'fontSize': 16}),
-            dcc.Tab(label='🗺️ Mapa Interactivo Global', value='tab-2', style={'fontSize': 16}),
+            dcc.Tab(label='Evolución de Casos por Grupo de Ingresos', value='tab-1', style={'fontSize': 16}),
+            dcc.Tab(label='Mapa Interactivo Global', value='tab-2', style={'fontSize': 16}),
         ], style={'marginBottom': 30}),
         
         html.Div(id='tabs-content')
